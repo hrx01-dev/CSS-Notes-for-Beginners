@@ -6,3 +6,9 @@ button {
     background-color : yellow;
     color : rgb(36, 216, 126);
 }
+
+/* RGB Color system
+RGB stands for Red, Green, Blue. It is a color model used in digital displays and web design to create a wide range of colors by combining different intensities of red, green, and blue light. Each color component can have a value between 0 and 255, where 0 means no intensity and 255 means full intensity. For example, rgb(255, 0, 0) represents pure red, rgb(0, 255, 0) represents pure green, and rgb(0, 0, 255) represents pure blue. By adjusting the values of each component, you can create millions of different colors. */
+
+/* Hex Color system
+The Hex color system is another way to represent colors in web design. It uses a six-digit hexadecimal (base 16) format to specify colors. The format is #RRGGBB, where RR represents the red component, GG represents the green component, and BB represents the blue component. Each component is represented by two hexadecimal digits, which can range from 00 to FF (0 to 255 in decimal). For example, #FF0000 represents pure red, #00FF00 represents pure green, and #0000FF represents pure blue. By combining different values for each component, you can create a wide variety of colors. */

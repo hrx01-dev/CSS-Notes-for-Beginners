@@ -1,0 +1,22 @@
+*{
+    color : #09ff08;
+    background-color : #0010ff;
+
+}
+
+h1 {
+    color : #ff0000;
+}
+
+/* Selectors 
+universal selector: *- targets all elements in the document
+type selector: p, h1, div - targets all elements of a specific type
+class selector: .my-class - targets all elements with a specific class
+id selector: #my-id - targets the element with a specific ID */
+
+#main-heading {
+    color : rgb(38,67,89);
+}
+.description {
+    color : #ff00ff;
+}

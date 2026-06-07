@@ -1,0 +1,38 @@
+/* Text align 
+text-align: left; -- the text is aligned to the left side of its container, creating a clean and organized look. This is the default value for most elements and is commonly used for body text and paragraphs.
+text-align: right; -- the text is aligned to the right side of its container, creating a clean and organized look. This is often used for navigation menus, sidebars, and other elements that are meant to be visually distinct from the main content.
+text-align: center; -- the text is centered within its container, creating a balanced and visually appealing layout. This is often used for headings, titles, and important content to draw attention and create a sense of harmony on the page.
+text-align: justify; -- the text is justified, meaning that it is aligned to both the left and right margins, creating a clean and organized look. This is often used in newspapers and magazines to create a more professional appearance.
+text-align: start; -- default value, depends on the language
+text-align: end;  -- depends on the language  
+*/
+h1 {
+    text-align : center ;
+}
+
+/* Try the above text align properties /*
+
+/* Text decoration
+text-decoration: none; -- removes any text decoration, such as underlines, from the text
+text-decoration: underline; -- adds an underline to the text, which can be used to indicate links or emphasize certain words or phrases.
+text-decoration: overline; -- adds a line above the text, which can be used for emphasis or to create a unique visual style.
+text-decoration: line-through; -- adds a line through the text, which can be used to indicate deleted or outdated information.
+text-decoration: blink; -- causes the text to blink on and off, which can be used to draw attention to important information or create a sense of urgency. However, this property is not widely supported and is generally not recommended for use in modern web design.
+*/
+p {
+    text-decoration : red  wavy overline ;
+}
+
+/* you can add color to text-decoration property as well, but it is not supported in all browsers, so it's best to use it with caution and test it across different platforms. */
+/* you can use text-decoration-style, text-decoration-color, and text-decoration-thickness properties to further customize the appearance of text decorations. */
+/* font-weight - normal, bold, bolder, lighter, 100-900 */
+
+#h1 {
+    font-weight : 255 ;
+}
+#h2 {
+    font-weight : bolder ;
+    font-family : cursive , sans-serif , serif ;
+}
+/* font-family - specifies the font of the text. It can be set to a specific font name, such as "Arial" or "Times New Roman", or to a generic font family, such as "serif" or "sans-serif". */
+/* You can also specify multiple font names in a comma-separated list, which allows the browser to use the first available font. For example, "font-family: Arial, Helvetica, sans-serif;" would use Arial if it's available, otherwise it would use Helvetica, and if neither is available, it would use the default sans-serif font. */

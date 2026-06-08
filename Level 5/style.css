@@ -1,0 +1,17 @@
+/* font-size: 16px; */
+#p1{
+    font-size : 16px;
+}
+#p2{
+    font-size : 1px;
+}
+h1{
+    font-size : 32px;
+}
+
+/* line-height: 1.5;  it is the spacing between lines of text */
+#p1{
+    line-height : 1.5;
+}
+
+/*text-transform: uppercase;  it is used to transform the text to uppercase, lowercase or capitalize */ 

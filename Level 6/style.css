@@ -1,0 +1,58 @@
+/* We will  talk about the box model  in CSS */
+/* The box model is a fundamental concept in CSS that describes how elements are structured and how they interact with each other. It consists of four main components: content,height, padding, border, and margin. */
+/* content: This is the actual content of the element, such as text or images. It is the innermost part of the box model. */
+/* padding: This is the space between the content and the border. It can be used to
+    create space around the content within the element. */
+
+/* height: This is the height of the content area. It can be set to a specific value or left to auto, which will adjust based on the content. */    
+/* border: This is the line that surrounds the padding and content. It can be styled with different colors, widths, and styles (e.g., solid, dashed, dotted). */
+/* margin: This is the space outside the border. It creates space between the element and other
+    elements on the page. Margins can also be used to create space between elements. */
+/* The box model is important for understanding how elements are sized and how they interact with each other */
+*{
+    background-color : lightblue;
+}
+div {
+    width : 200px;
+    height : 100px;
+    padding : 20px;
+    border : 5px solid black;/* border-width : 5px; border-color : black; border-style : solid,dashed,dotted; */
+    margin : 10px;
+}
+h1{
+    font-size:20px;
+    width: 250px;
+    margin: 1px;
+    padding:2px;
+    border : 4px pink solid;
+    text-align: center; /* if you use text-align: center; the text will be centered within the element. */
+}
+
+/* now let's move to border radius */
+/* border-radius: This property is used to create rounded corners for elements. It can be applied to all corners or specific corners of an element. The syntax for border-radius is as follows: */
+/* border-radius: <length> | <percentage> | <length> <length> | <percentage> <percentage> | <length> / <length> | <percentage> / <percentage>; */
+/* For example, to create rounded corners, you can use the following CSS: */
+/* p{
+    border: 2px solid black;
+    border-radius: 10px; /* This will create rounded corners with a radius of 10 pixels. 
+    padding: 10px;
+    width: 300px;
+    height: 150px;
+    margin: 20px; }*/
+/* If the height and width of the element are equal, and the border-radius is set to 50%, it will create a perfect circle. For example: */
+/* There are four types of padding in CSS: padding-top, padding-right, padding-bottom, and padding-left. You can set each of these properties individually to control the padding on each side of an element.  */
+/* shorthand property for padding: You can also use the shorthand property for padding, which allows you to set all four padding values in one line. The syntax for the shorthand property is as follows: *
+/* padding : Top Right Bottom Left; */
+
+p{
+    border: 2px solid black;
+    border-radius: 10px; /* This will create rounded corners with a radius of 10 pixels. */
+    padding: 10px 8px 7px  4px;
+    width: 300px;
+    height: 150px;
+    margin: 20px 15px 10px 5px; 
+    
+    }
+
+    /* Shorthand property for margin: Similar to padding, you can also use the shorthand property for margin, which allows you to set all four margin values in one line. The syntax for the shorthand property is as follows: */
+/* margin : Top Right Bottom Left; */

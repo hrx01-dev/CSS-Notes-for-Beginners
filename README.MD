@@ -69,4 +69,6 @@ To get started, you only need a text editor (like VS Code) and a web browser.
    - **Internal:** Inside `<style>` tags in the `<head>`.
    - **External:** In a separate `.css` file.
 
-Happy Coding! 🚀
+Happy Coding! 🚀   
+
+## If you Like the notes , then do star the repo 

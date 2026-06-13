@@ -1,0 +1,28 @@
+* {
+    background-color: azure;
+}
+/* Display property: The display property in CSS is used to control the layout and behavior of elements on a web page. It determines how an element is displayed and how it interacts with other elements. There are several values that can be assigned to the display property, including: */
+/* block: This value makes an element a block-level element, which means it will take up the full width of its parent container and start on a new line. Examples of block-level elements include <div>, <p>, and <h1>. */
+/* inline: This value makes an element an inline element, which means it will only take up as much width as necessary and will not start on a new line. Examples of inline elements include <span>, <a>, and <strong>. */
+/* inline-block: This value combines the characteristics of both block-level and inline elements. An element with display: inline-block will take up only as much width as necessary, but it will also allow for block-level features such as setting width and height (margin and padding). */
+/* none: This value hides an element from the page, and it will not take up any space. The element will not be rendered, and it will not affect the layout of the page. */
+/* below are some examples : */
+div {
+    display: block; /* BY default div is a block element */
+}
+div {
+    display : inline; /* This will make the div an inline element, and it will only take up as much width as necessary. */
+}
+button {
+    display: block; /* This will make the button a block-level element */
+}
+
+/* there is visibility property in css which is used to control the visibility of an element on a web page. It determines whether an element is visible or hidden, and how it affects the layout of the page. There are several values that can be assigned to the visibility property, including: */
+/* visible: This value makes an element visible on the page. The element will be rendered and will take up space in the layout. This is the default value for the visibility property. */
+/* hidden: This value hides an element from the page, but it will still take up space in the layout. The element will not be rendered, but it will still affect the layout of the page. */
+/* collapse: This value is used for table elements and it hides the element and also removes it from the layout. The element will not be rendered and will not take up any space in the layout. */  
+
+/* Alpha transparency: The alpha transparency property in CSS is used to control the opacity of an element. It determines how transparent or opaque an element is on a web page. The alpha transparency property is typically set using the rgba() function, which stands for red, green, blue, and alpha. The alpha value can range from 0 (completely transparent) to 1 (completely opaque). For example, rgba(255, 0, 0, 0.5) would create a semi-transparent red color. This property can be applied to various elements such as backgrounds, borders, and text to create visual effects and enhance the design of a web page. */
+div {
+    background-color: rgba(255, 0, 0, 0.5); /* This will create a semi-transparent red background for the div element. */
+}

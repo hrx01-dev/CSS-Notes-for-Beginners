@@ -22,3 +22,8 @@
     height: 10vh; /* This will make the height of the sibling element 100px (10% of the viewport height) */
     background-color: lightgreen;
 }
+/* position property in CSS is used to control the positioning of elements on a web page. It determines how an element is positioned in relation to its parent element or the viewport. There are several values that can be assigned to the position property, including: */
+/* static: This is the default value for the position property. Elements with position: static are  positioned according to the normal flow of the document. They are not affected by top, bottom, left, or right properties. */
+/* relative: This value positions an element relative to its normal position in the document flow. Elements with position: relative can be moved using the top, bottom, left, and right properties, but they still take up space in the layout. */
+/* absolute: This value positions an element relative to its nearest positioned ancestor (an ancestor with a    position value other than static). Elements with position: absolute are removed from the normal flow of the document and can be positioned using the top, bottom, left, and right properties. */    
+

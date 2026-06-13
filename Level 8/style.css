@@ -1,0 +1,24 @@
+/* Relative units in CSS are a way to specify sizes and lengths in relation to other elements or the viewport. They allow for more flexible and responsive designs, as they can adapt to different screen sizes and user preferences. Some common relative units in CSS include: */
+/* em: This unit is relative to the font size of the parent element. For example, if the parent element has a font size of 16px, then 1em would be equal to 16px. If the parent element has a font size of 20px, then 1em would be equal to 20px. */
+/* rem: This unit is relative to the font size of the root element (usually the <html> element). For example, if the root element has a font size of 16px, then 1rem would be equal to 16px. If the root element has a font size of 20px, then 1rem would be equal to 20px. */
+/* vw: This unit is relative to the width of the viewport. For example, if the viewport is 1000px wide, then 1vw would be equal to 10px. If the viewport is 500px wide, then 1vw would be equal to 5px. */
+/* vh: This unit is relative to the height of the viewport. For example, if the viewport is 1000px tall, then 1vh would be equal to 10px. If the viewport is 500px tall, then 1vh would be equal to 5px. */
+/* % : This unit is relative to the size of the parent element. For example, if the parent element has a width of 500px, then 50% would be equal to 250px. If the parent element has a width of 1000px, then 50% would be equal to 500px. */
+#parent {
+    width: 500px;
+    height: 500px;
+    background-color: lightblue;
+    font-size: 16px;
+}
+#child {
+    width: 50%;
+    height: 50%;
+    background-color: lightcoral;
+    font-size: 2em; /* This will make the font size of the child element 32px (2 times the font size of the parent element) */
+    width: 1.5em; /* This will make the font width of the child element 24px (1.5 times the font size of the parent element) */}
+
+#sibling {
+    width: 10vw; /* This will make the width of the sibling element 100px (10% of the viewport width) */
+    height: 10vh; /* This will make the height of the sibling element 100px (10% of the viewport height) */
+    background-color: lightgreen;
+}

@@ -1,0 +1,10 @@
+/* Introoduction to z-index and stacking context */
+/* The z-index property specifies the stack order of an element. An element with a greater stack order is always in front of an element with a lower stack order. */    
+/* The stacking context is formed by an element in the following scenarios: */
+/* 1. The root element of the document (HTML) */
+/* 2. Positioned (absolutely or relatively) with a z-index value other than auto */
+/* 3. Elements with opacity less than 1 */
+/* 4. Elements with a transform property value other than none */
+/* 5. Elements with a mix-blend-mode value other than normal */
+/* Example of stacking context */
+/* The red box will be behind the blue box because it has a lower z-index value */

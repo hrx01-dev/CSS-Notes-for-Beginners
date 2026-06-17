@@ -29,3 +29,33 @@
     font-size: 16px;
     z-index:2;
 }
+
+/* background image */
+/* The background-image property sets one or more background images for an element. The images are drawn on top of the background-color set for the element. */ 
+#parent {
+    background-image : url("photo.jpg"); 
+    /* This will set the background image of the parent element to "photo.jpg" but it will be drawn on top of the background-color also sized to fit */
+}
+
+/* background-size property */
+/* The background-size property specifies the size of the background images for an element. The size can be specified in length units, percentage, or keywords. */
+#parent {
+    background-size: cover; /* This will make the background image cover the entire parent element */
+}
+
+/* contain property */
+/* The background-size property specifies the size of the background images for an element. The size can be specified in length units, percentage, or keywords. it will repeat to fill the container */
+#parent {
+    background-size: contain; /* This will make the background image fit within the parent element */
+}
+/* background-repeat property */
+/* The background-repeat property specifies how background images are repeated. The default value is repeat, which
+means the background image will be repeated both vertically and horizontally. */
+#parent {
+    background-repeat: no-repeat; /* This will prevent the background image from repeating */
+}
+/* auto value */
+/* In this case, the background image will be displayed at its original size. If the image is larger than the element, it will be clipped to fit the element. */
+#parent {
+    background-size: auto; /* This will display the background image at its original size */
+} 

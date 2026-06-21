@@ -1,1 +1,34 @@
-/*Flexbox - A layout model that allows responsive alignment and distribution of elements within a container. It provides a more efficient way to lay out, align, and distribute space among items in a container, even when their size is unknown or dynamic. Flexbox is particularly useful for creating flexible and adaptive web designs.
+/*Flexbox - A layout model that allows responsive alignment and distribution of elements within a container. It provides a more efficient way to lay out, align, and distribute space among items in a container, even when their size is unknown or dynamic. Flexbox is particularly useful for creating flexible and adaptive web designs.*/
+
+body {
+     text-align: center;
+}
+div {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 10px;
+    display: inline-block;
+}
+#container {
+    width: 350px;
+    height: 500px;
+}
+#box1 {
+    background-color: lightcoral;
+}
+#box2 {
+    background-color: lightgreen;
+}
+#box3 {
+    background-color: lightpink;
+}
+#box4 {
+    background-color: lightyellow;
+}
+#box5 {
+    background-color: lightgray;
+}
+#box6 {
+    background-color: lightcyan;
+}

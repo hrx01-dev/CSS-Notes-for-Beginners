@@ -7,12 +7,14 @@ div {
     width: 100px;
     height: 100px;
     background-color: lightblue;
-    margin: 10px;
+    
     display: inline-block;
 }
 #container {
-    width: 350px;
+    width: 750px;
     height: 500px;
+    display:flex;
+    flex-direction : column;   
 }
 #box1 {
     background-color: lightcoral;
@@ -32,3 +34,8 @@ div {
 #box6 {
     background-color: lightcyan;
 }
+/* row - items are placed horizontally from left to right (default)
+row-reverse - items are placed horizontally from right to left  
+column - items are placed vertically from top to bottom
+column-reverse - items are placed vertically from bottom to top */
+/* Flexbox tries to fit items into a single line by default. If the items cannot fit into one line, they will overflow the container. To allow items to wrap onto multiple lines, you can use the flex-wrap property. */    

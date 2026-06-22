@@ -11,19 +11,29 @@ div {
     display: inline-block;
 }
 #container {
-    width: 750px;
-    height: 500px;
+    width: 650px;
+    height: 200px;
     display:flex;
-    flex-direction : column;   
+    flex-direction : row;
+    justify-content: center;  
+    /* flex-wrap: wrap; */
+     /* align-items: center;   */
+    /* align-content: center; */
 }
 #box1 {
     background-color: lightcoral;
 }
 #box2 {
     background-color: lightgreen;
+    height: 150px;
+    align-self :  flex-end;
+    /* flex-shrink :2;  */
+    /* align-self - This property allows you to override the default alignment of a specific flex item along the cross axis. It can take values like auto, flex-start, flex-end, center, baseline, and stretch. */  
+    flex-grow : 2;
 }
 #box3 {
     background-color: lightpink;
+    flex-grow:2;
 }
 #box4 {
     background-color: lightyellow;
@@ -39,3 +49,15 @@ row-reverse - items are placed horizontally from right to left
 column - items are placed vertically from top to bottom
 column-reverse - items are placed vertically from bottom to top */
 /* Flexbox tries to fit items into a single line by default. If the items cannot fit into one line, they will overflow the container. To allow items to wrap onto multiple lines, you can use the flex-wrap property. */    
+/* justify-content - This property is used to align the flex items along the main axis (horizontal or vertical) of the container. It can take values like flex-start, flex-end, center, space-between, space-around, and space-evenly. */   
+/* flex-start - items are packed toward the start of the flex-direction
+flex-end - items are packed toward the end of the flex-direction
+center - items are centered along the line
+space-between - items are evenly distributed in the line; first item is on the start line, last item on the end line
+space-around - items are evenly distributed in the line with equal space around them
+space-evenly - items are distributed so that the spacing between any two items (and the space to the edges) is equal */
+/*  flex-wrap - This property is used to control whether the flex items should wrap onto multiple lines or stay on a single line. It can take values like nowrap, wrap, and wrap-reverse. */        
+/* Align-items - This property is used to align the flex items along the cross axis (perpendicular to the main axis) of the container. It can take values like stretch, flex-start, flex-end, center, and baseline. */
+/* align-content - This property is used to align the flex lines when there is extra space in the cross axis. It can take values like stretch, flex-start, flex-end, center, space-between, and space-around. */    
+/* flex-shrink - This property is used to specify how much a flex item should shrink relative to the other items in the container when there is not enough space. It can take a unitless value that represents the shrink factor. The default value is 1, which means that all items will shrink at the same rate. If you set it to 0, the item will not shrink at all. */  
+/* flex-grow - This property is used to specify how much a flex item should grow relative to the other items in the container when there is extra space. It can take a unitless value that represents the grow factor. The default value is 0, which means that items will not grow at all. If you set it to 1, the item will grow to fill the available space. */  

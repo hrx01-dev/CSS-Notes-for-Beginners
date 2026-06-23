@@ -1,0 +1,20 @@
+div {
+    background-color: lightblue;
+    height : 100px;
+    width :100px;
+    border  : 2px solid black;
+}
+
+@media (min-width: 600px) {
+    div {
+        background-color: lightcoral;
+    }
+}
+@media (min-width:800px) and (max-width: 1200px) {
+    div {
+        background-color: lightgreen;
+    }
+}
+
+/* The @media rule is used to apply different styles for different media types/devices. It can be used to check many things, such as screen resolution, device orientation, and more. In this case, we are checking if the viewport width is at least 600 pixels. If it is, the background color of the div will change to lightcoral. This is a common technique used in responsive web design to ensure that websites look good on all devices, from mobile phones to desktop computers. */   
+/* width - This media feature is used to apply styles based on the width of the viewport. It can be used with min-width and max-width to create responsive designs that adapt to different screen sizes. */ 

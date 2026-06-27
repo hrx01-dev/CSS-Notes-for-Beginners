@@ -1,0 +1,21 @@
+/* Transistion - The transition property is used to create smooth animations when changing CSS properties. In this case, we are applying a transition to the background-color property of the div. When the background color changes (for example, when the viewport width changes), the transition will create a smooth effect instead of an abrupt change. */
+div {
+    background-color: Red;
+    height : 200px;
+    width :300px;   
+    border: 1px solid black;
+    /* transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease; 
+    transition-delay:2s*/
+    
+}
+div:hover {
+    background-color: Blue;
+    transition: background-color 0.5s ease ; /* This line specifies that the background-color property should transition over 0.5 seconds with an ease timing function */
+}
+
+div:active {
+    background-color: Green;
+    transition: background-color 0.5s ease ; /* This line specifies that the background-color property should transition over 0.5 seconds with an ease timing function */
+}

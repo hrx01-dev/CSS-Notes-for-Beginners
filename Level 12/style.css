@@ -12,10 +12,38 @@ div {
 }
 div:hover {
     background-color: Blue;
-    transition: background-color 0.5s ease ; /* This line specifies that the background-color property should transition over 0.5 seconds with an ease timing function */
+    transition: all 2s ease-in ; /* This line specifies that the background-color property should transition over 0.5 seconds with an ease timing function */
 }
 
 div:active {
     background-color: Green;
-    transition: background-color 0.5s ease ; /* This line specifies that the background-color property should transition over 0.5 seconds with an ease timing function */
+    transition: background-color 0.5s ease ; 
+    /* This line specifies that the background-color property should transition over 0.5 seconds with an ease timing function */
+    transform : scaleX(1.5); /* This line applies a scaling transformation to the div when it is active (clicked). The div will scale up to 1.5 times its original size. */}
+
+
+
+/* transform property  rotate: 45deg used to rotate the element */
+div {
+    /* transform: rotate(45deg); */
+    rotate : x 60deg;
+}
+
+/* Scale property - used to scale the element */
+div {
+    /* transform: scale(1.5); */
+    /* scale: 1.5; */
+    scale : (1.5,2)
+}
+/* translate property - used to move the element */
+div:hover {
+    /* transform: translate(10px, 20px); */
+    /* translate: 10px 20px; */
+    transform : translateX(-200px);
+}
+/* skew property - used to skew the element */
+div:active {
+    /* transform: skew(30deg); */
+    /* skew: 30deg; */
+    transform : skewX(90deg);
 }
